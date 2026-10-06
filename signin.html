@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <title>NEXORA - Account</title>
+</head>
+
+<body>
+
+<header>
+    <div class="container navbar">
+
+        <a href="index.html" class="logo">NEXORA</a>
+
+        <nav>
+            <!-- Hamburger button -->
+             <input type="checkbox" id="menu-toggle">
+             <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a href="signin.html" class="btn-signin">Sign In</a>
+
+    </div>
+</header>
+
+
+<main class="auth-page">
+
+    <div class="auth-card">
+
+        <div class="auth-header">
+
+            <a href="index.html" class="logo">
+                NEXORA
+            </a>
+
+            <p>
+                Welcome to the next generation of gaming.
+            </p>
+
+        </div>
+
+
+        <!-- CSS ONLY TAB SYSTEM -->
+
+        <input type="radio"
+               name="account"
+               id="signin-tab"
+               checked>
+
+        <input type="radio"
+               name="account"
+               id="signup-tab">
+
+
+        <div class="auth-tabs">
+
+            <label for="signin-tab">
+                Sign In
+            </label>
+
+            <label for="signup-tab">
+                Create Account
+            </label>
+
+        </div>
+
+
+        <!-- SIGN IN -->
+
+        <form class="auth-form signin-form">
+
+            <div class="form-group">
+
+                <label for="signin-email">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="signin-email"
+                    placeholder="name@example.com"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <div class="label-row">
+
+                    <label for="signin-password">
+                        Password
+                    </label>
+
+                    <a href="#">
+                        Forgot?
+                    </a>
+
+                </div>
+
+                <input
+                    type="password"
+                    id="signin-password"
+                    placeholder="••••••••"
+                    required
+                >
+
+            </div>
+
+
+            <label class="remember">
+
+                <input type="checkbox">
+
+                <span>
+                    Remember me
+                </span>
+
+            </label>
+
+
+            <button type="submit" class="btn-primary">
+                SIGN IN →
+            </button>
+
+        </form>
+
+
+        <!-- SIGN UP -->
+
+        <form class="auth-form signup-form">
+
+            <div class="form-group">
+
+                <label for="username">
+                    Username
+                </label>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="GamerTag123"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="signup-email">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="signup-email"
+                    placeholder="name@example.com"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="signup-password">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="signup-password"
+                    placeholder="••••••••"
+                    required
+                >
+
+            </div>
+
+
+            <label class="remember">
+
+                <input type="checkbox" required>
+
+                <span>
+                    I agree to Terms & Conditions
+                </span>
+
+            </label>
+
+
+            <button type="submit" class="btn-primary">
+                CREATE ACCOUNT →
+            </button>
+
+        </form>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-content">
+
+        <a href="index.html" class="logo">
+            NEXORA
+        </a>
+
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="technology.html">Technology</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <p>© 2026 NEXORA. All rights reserved.</p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
